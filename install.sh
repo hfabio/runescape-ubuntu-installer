@@ -5,4 +5,4 @@ apt-get update
 apt-get install -y runescape-launcher
 rm -f /etc/apt/sources.list.d/runescape.list
 
-sed -i -e "s+Exec=+Exec=gamemoderun %commands% +g" /usr/share/applications/runescape-launcher.desktop
+sed -i -e "s+Exec=+Exec=gamemoderun +g" /usr/share/applications/runescape-launcher.desktop
